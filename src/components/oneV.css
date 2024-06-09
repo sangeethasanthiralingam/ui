@@ -1,0 +1,344 @@
+.h1-title {
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-large-1 {
+  /* border: 1px solid black; */
+}
+
+.container-large-2 {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.divide-box {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.divide-box-1 {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.divide-box-2 {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.pic-big {
+  /* margin: 10%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  /* border: 1px solid black; */
+}
+
+.big-pic {
+  /* padding: 15%; */
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s;
+}
+
+.big-pic:hover {
+  transform: scale(1.1);
+  /* Zoom the image */
+}
+
+.pic-three {
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+
+.pic-one {
+  height: 100px;
+  width: 100px;
+  /* border: 1px solid black; */
+  transition: transform 0.3s, border 0.3s;
+  border-radius: 15px;
+}
+
+.pic-one:hover {
+  transform: scale(1.1);
+  /* Zoom the image */
+  border: 10px solid burlywood;
+  /* Change the border */
+}
+
+.one {
+  /* border: 1px solid black; */
+  padding: 0;
+  margin: 0;
+}
+
+.one-review {
+  display: flex;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+
+.review-stars {
+  width: auto;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+.review-text {
+  width: 50%;
+  margin-left: 5px;
+  /* border: 1px solid black; */
+  align-items: flex-start;
+}
+
+.p-6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p-r {
+  margin-top: 0;
+}
+
+.one-c {
+  margin-top: 0px;
+}
+
+.box-color {
+  /* border: 1px solid black; */
+}
+
+.p-1 {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-2 {
+  margin-top: 1%;
+  color: rgb(181, 187, 187);
+}
+
+.p-3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0px;
+}
+
+.p-5 {
+  font-size: small;
+  color: black;
+  margin: 0;
+}
+
+.box-color-1,
+.box-color-2,
+.box-color-3 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.box-color-1 {
+  background-color: brown;
+}
+
+.box-color-2 {
+  background-color: blue;
+}
+
+.box-color-3 {
+  background-color: blueviolet;
+}
+
+.three-box {
+  display: flex;
+  /* Makes the container a flexbox */
+  justify-content: flex-start;
+  /* Aligns items at the start horizontally */
+  align-items: flex-start;
+}
+
+.path {
+  margin-left: 3%;
+  color: rgb(146, 151, 151);
+}
+
+.one-add {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+}
+
+.add-to-cart {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 70%;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.add-to-cart-w {
+  width: 70%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.text {
+  color: white;
+}
+
+.text-b {
+  color: black;
+  /* gap: 15px */
+}
+
+@media screen and (max-width: 769px) and (min-width: 304px) {
+  .divide-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divide-box-1 {
+    width: 100%;
+  }
+
+  .divide-box-2 {
+    width: 100%;
+  }
+
+  .p-5 {
+    font-size: small;
+    color: black;
+    text-align: center;
+  }
+  .one-review {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: goldenrod;
+  }
+  .three-box{
+    justify-content: center;
+  }
+  .one {
+    /* border: 1px solid black; */
+   text-align: center;
+  }
+  .one-add{
+    justify-content: center;
+  }
+}
+
+/* ----------------- */
+/* .h1-title {
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-large-1 {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container-large-2 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.divide-box {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.divide-box-1, .divide-box-2 {
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pic-big {
+  margin: auto;
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-pic {
+  width: 100%;
+  height: auto;
+}
+
+.pic-three {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.pic-one {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.one {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.one-review {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-stars, .review-text {
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.three-box {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.box-color {
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+} */
